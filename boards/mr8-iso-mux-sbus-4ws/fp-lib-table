@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name mr8-iso-mux-sbus-4ws)(type KiCad)(uri ${KIPRJMOD}/mr8-iso-mux-sbus-4ws.pretty)(options "")(descr ""))
+)

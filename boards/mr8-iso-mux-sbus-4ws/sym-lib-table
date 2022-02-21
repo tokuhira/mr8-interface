@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mr8-iso-mux-sbus-4ws)(type Legacy)(uri ${KIPRJMOD}/mr8-iso-mux-sbus-4ws.lib)(options "")(descr ""))
+)
