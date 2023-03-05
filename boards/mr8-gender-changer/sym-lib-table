@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name mr8-gender-changer)(type Legacy)(uri ${KIPRJMOD}/mr8-gender-changer.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "mr8-gender-changer")(type "KiCad")(uri "${KIPRJMOD}/mr8-gender-changer.kicad_sym")(options "")(descr ""))
 )
