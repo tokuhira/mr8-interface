@@ -3,7 +3,7 @@
 //  @file RC_Interface_for_MR-8.ino
 //  @brief RC Interface for MR-8 (MUX/S.BUS/4WS)
 //  @author tokuhira
-//  @date 20121/09/29
+//  @date 2021/09/29
 
 //  QT Py     Device         　
 //   0 (A0)   <=  MR8(A/E ch) via 74HC32
