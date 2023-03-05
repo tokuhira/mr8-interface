@@ -212,11 +212,13 @@ void setup() {
   pinMode(MR8_CG_PIN, INPUT);
   pinMode(MR8_DH_PIN, INPUT);
   pinMode(EX_STR_PIN, INPUT);
+  noInterrupts();
   attachInterrupt(digitalPinToInterrupt(MR8_AE_PIN), chAEChangeInterupt, CHANGE);
   attachInterrupt(digitalPinToInterrupt(MR8_BF_PIN), chBFFallingInterupt, FALLING);
   attachInterrupt(digitalPinToInterrupt(MR8_CG_PIN), chCGFallingInterupt, FALLING);
   attachInterrupt(digitalPinToInterrupt(MR8_DH_PIN), chDHFallingInterupt, FALLING);
   attachInterrupt(digitalPinToInterrupt(EX_STR_PIN), chExStrChangeInterupt, CHANGE);
+  interrupts();
 
   // for PWM write
   MrStrRev.attach(MR_STR_REV_PIN);
